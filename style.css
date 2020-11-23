@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.halloworld {
+    height: 200px;
+    width: 200px;
+    background: orange;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+
+    position: relative;
+    left: -5px;
+    top: 7px; 
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background: red;
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background: rgb(0, 255, 85);
+    
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 2;  
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background: rgb(0, 183, 255);
+    
+    position: absolute;
+    left: 20px;
+    bottom: 20px;    
+}
